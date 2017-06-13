@@ -42,7 +42,7 @@ public class App extends Application {
         if (ENABLE_TOAST) {
             HookManager.getDefault().callSuper(toast);
         }else {
-            toast.setText("hook后的toast"); 
+            toast.setText("hook后的toast");
             HookManager.getDefault().callSuper(toast);
         }
     }
